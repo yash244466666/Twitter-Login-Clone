@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+.hero-sec {
+  display: flex;
+}
+
+.hero-img img {
+  width: 50vw;
+  height: 99.5vh;
+}
+.hero-right {
+  margin: 0 0 0 3rem;
+}
+.logo {
+  margin-top: 3rem;
+}
+.logo img {
+  max-width: 50px;
+}
+.hero-main-txt h1 {
+  font-size: 5em;
+  color: #d9d9d9;
+  margin-bottom: 4rem;
+}
+.hero-sec-txt h3 {
+  font-size: 2em;
+  color: #d9d9d9;
+}
+.google-btn {
+  margin-bottom: 1rem;
+  font-weight: 0;
+}
+.google-btn img {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+.apple-btn {
+  padding: 0.8rem 3.3rem !important;
+  font-weight: 600;
+}
+.apple-btn img {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+.phone-btn {
+  padding: 0.8rem 2rem !important;
+  background-color: #1d9bf0;
+  color: #fff;
+  font-weight: 700;
+}
+.btn-style {
+  border: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 0.8rem 3.5rem;
+  border-radius: 50px;
+}
+.or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43%;
+  margin-bottom: 1rem;
+}
+.or span {
+  margin: 0 8px;
+  color: #d9d9d9;
+}
+.or hr {
+  width: 100%;
+  height: 0px;
+  color: #d9d9d9;
+}
+.sign-up-legal {
+  width: 45%;
+}
+.sign-up-legal p {
+  width: 100%;
+  font-size: 12px;
+  color: #d9d9d9;
+}
+.sign-up-legal p a {
+  text-decoration: none;
+  color: #1d9bf0;
+}
+.sign-in-sec h5 {
+  font-size: 1em;
+  margin: 2rem 0 0.5rem 0.5rem;
+}
+.sign-in-btn {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #d9d9d9;
+  color: #1d9bf0;
+  padding: 0.8rem 6.3rem !important;
+  font-weight: 600;
+}
